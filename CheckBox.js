@@ -1,6 +1,5 @@
 import React, {
   Component,
-  PropTypes,
 } from 'react';
 
 import {
@@ -9,6 +8,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import PropTypes from 'prop-types'
 
 export default function CheckBox(props) {
   const iconName = props.checked ? props.checkedIconName : props.uncheckedIconName;
